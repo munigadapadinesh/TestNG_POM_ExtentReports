@@ -52,7 +52,7 @@ public class BaseTest {
 		if(url.equals(driver.getCurrentUrl()))
 		{
 			reportInfo(test, "User should launch the browser", "User is able to launch the browser");
-			System.out.prrintln("User should launch the browser: "+url);
+			System.out.println("User should launch the browser: "+url);
 		}
 		return driver;
 	}
