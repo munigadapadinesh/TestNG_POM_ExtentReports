@@ -20,7 +20,7 @@ public class TestManagerLogin extends BaseTest {
 		obj_LoginPage.performBankManagerLogin();
 		report.endTest(test);
 		report.flush();
-		System.out.Println("TEST End");
+		System.out.println("TEST End");
 	}
 
 }
