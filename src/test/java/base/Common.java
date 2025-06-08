@@ -21,6 +21,7 @@ public class Common extends BaseTest {
 			{
 				ele.click();
 				reportPass(test, "User should click the <B> "+elementName+" </B> in UI", "User is clicked the <B> "+elementName+" </B> in UI");
+				System.out.println("User should click the "+elementName+" in UI");
 
 			}
 
@@ -28,6 +29,7 @@ public class Common extends BaseTest {
 		catch(Exception e)
 		{
 			reportFail(test, "User should click the <B> "+elementName+" </B> in UI", "User is not clicked the <B> "+elementName+" </B> in UI");
+			System.out.println("User is not able to click the "+elementName+" in UI");
 
 		}
 	}
@@ -46,6 +48,7 @@ public class Common extends BaseTest {
 			{
 				ele.sendKeys(data);
 				reportPass(test, "User should enter the data into <B> "+elementName+" </B> as <B> "+data+" </B> in UI", "User is entered the data into <B> "+elementName+" </B> as <B> "+data+" </B> in UI");
+				System.out.println("User is able to enter the data into "+elementName+" as "+data+" in UI");
 
 			}
 
@@ -53,6 +56,7 @@ public class Common extends BaseTest {
 		catch(Exception e)
 		{
 			reportFail(test, "User should enter the data into <B> "+elementName+" </B> as <B> "+data+" </B> in UI", "User is not able to  enter the data into <B> "+elementName+" </B> as <B> "+data+" </B> in UI");
+			System.out.println("User is not able to enter the data into "+elementName+" as "+data+" in UI");
 
 		}
 	}
