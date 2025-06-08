@@ -20,6 +20,7 @@ public class TestCustomerLogin extends BaseTest {
 		obj_LoginPage.performCustomerLogin();
 		report.endTest(test);
 		report.flush();
+		System.out.Println("TEST End");
 	}
 
 }
