@@ -25,6 +25,7 @@ public class TestAddCustomer extends BaseTest {
 		obj_AddCustomerPage.validateCustomerAdded();
 		report.endTest(test);
 		report.flush();
+		System.out.Println("TEST End");
 	}
 
 }
