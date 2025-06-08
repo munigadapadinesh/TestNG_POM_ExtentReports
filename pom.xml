@@ -96,28 +96,6 @@
         </configuration>
       </plugin>
 
-      <!-- Optional: Toolchains plugin to specify Java 17 -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-toolchains-plugin</artifactId>
-        <version>3.1.0</version>
-        <executions>
-          <execution>
-            <goals>
-              <goal>toolchain</goal>
-            </goals>
-          </execution>
-        </executions>
-        <configuration>
-          <toolchains>
-            <jdk>
-              <version>17</version>
-              <vendor>oracle</vendor>
-            </jdk>
-          </toolchains>
-        </configuration>
-      </plugin>
-
     </plugins>
   </build>
 
